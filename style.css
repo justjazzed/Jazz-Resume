@@ -95,10 +95,12 @@ body {
   }
   
   
-  @media only screen and (max-width: 1100px) {
-    .skillsAndAbilities {
-      width: 100%;
+  @media only screen and (max-width: 1000px) {
+    .skillsAndAbilities{
       display: block;
+    }
+    .skillsAndAbilities p{
+      font-size: 10px;
     }
     .section-1 {
       display: block;
@@ -108,19 +110,21 @@ body {
       margin: 0 auto;
       display: block;
       width: 100%;
+      justify-content: center ;
     }
+    
   
   }
   
   @media only screen and (max-width: 700px) {
     body{
       background-color: #193253;
+      margin:0;
     }
     .left-section {
       width: 100%;
       background:   linear-gradient( rgba(0,0,0,0.3)
-      ,rgba(0,0,0,0.3)
-          ),url(../img/background.jpg);
+      ,rgba(0,0,0,0.3));
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -130,23 +134,21 @@ body {
   
     .right-section {
       display: none;
+      text-align: center;
+      margin-left: 50%;
     }
   
-    .skillsAndAbilities {
-      width: 100%;
-    }
+    
   
     .section-1 {
       display: block;
       text-align: center;
-      background-color: #000000c8 !important;
-      color: #fff;
     }
   
     .Profile1 {
       margin: 0 auto;
       display: block;
-      width: 95%;
+      width: 100%;
     }
   
   }
